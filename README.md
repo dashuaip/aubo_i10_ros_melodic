@@ -1,8 +1,10 @@
-#前提：使用小鱼一键安装了 ros melodic 和 rosdepc
+#HUST_aubo_ros_melodic
+---
+##安装前提：使用小鱼一键安装了 ros melodic 和 rosdepc
 ---
 ##一键安装指令：
 ```
-wget http://fishros.com/install -O fishros && . fishros'
+wget http://fishros.com/install -O fishros && . fishros
 ```
 ---
 ##aubo package安装
@@ -12,6 +14,7 @@ wget http://fishros.com/install -O fishros && . fishros'
 2.```cd ~/aubo_ws/src/```
 
 3.```git clone https://github.com/dashuaip/HUST_aubo_ros_melodic.git ```
+
 或 ```git clone https://mirror.ghproxy.com/https://github.com/dashuaip/HUST_aubo_ros_melodic.git```
 
 4.```sudo apt install ros-melodic-industrial-*```
@@ -35,6 +38,7 @@ wget http://fishros.com/install -O fishros && . fishros'
 13.```cd ~/aubo_ws```
 
 14.```catkin_make```
+
 或 ```catkin b```
 
 15.```echo "source /home/r/aubo_ws/devel/setup.bash" >> ~/.bashrc```
