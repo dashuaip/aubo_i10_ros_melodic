@@ -1,8 +1,10 @@
 前提：使用小鱼一键安装了 ros melodic 和 rosdepc
 
-一键安装指令:wget http://fishros.com/install -O fishros && . fishros
+一键安装指令：
+'wget http://fishros.com/install -O fishros && . fishros'
 
 aubo安装
+
 1.mkdir -p ~/aubo_ws/src
 
 2.cd ~/aubo_ws/src/
@@ -37,6 +39,7 @@ aubo安装
 16.chmod +x aubo_ws/src/HUST_aubo_ros_melodic/aubo_controller/script/aubo_controller/aubo_robot_simulator 
 
 aubo运行
+
 1.roslaunch aubo_i10_moveit_config moveit_planning_execution.launch robot_ip:=127.0.0.1
 
 2.roslaunch aubo_gazebo aubo_i10_gazebo_control.launch 
