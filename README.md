@@ -16,11 +16,11 @@ wget http://fishros.com/install -O fishros && . fishros
 ```cd ~/aubo_ws/src/```
 
 3.下载ros package  
-```git clone https://github.com/dashuaip/HUST_aubo_ros_melodic.git ```
+```git clone https://github.com/dashuaip/aubo_i10_ros_melodic.git```
 
 或  
 
-```git clone https://gitee.com/dashuaip/HUST_aubo_ros_melodic.git```
+```git clone https://gitee.com/dashuaip/aubo_i10_ros_melodic.git```
 
 4.安装依赖  
 ```sudo apt install ros-melodic-industrial-*```
@@ -66,6 +66,7 @@ wget http://fishros.com/install -O fishros && . fishros
 二、aubo robot运行
 
 1.rviz  
+想控制真实机械臂，就把robot_ip换成机械臂的IP地址  
 ```roslaunch aubo_i10_moveit_config moveit_planning_execution.launch robot_ip:=127.0.0.1```
 
 2.gazebo  
