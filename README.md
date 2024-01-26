@@ -9,39 +9,58 @@ wget http://fishros.com/install -O fishros && . fishros
 ---
 一、aubo package安装
 
-1.```mkdir -p ~/aubo_ws/src```
+1.  
+```mkdir -p ~/aubo_ws/src```
 
-2.```cd ~/aubo_ws/src/```
+2.  
+```cd ~/aubo_ws/src/```
 
-3.```git clone https://github.com/dashuaip/HUST_aubo_ros_melodic.git ```
+3.  
+```git clone https://github.com/dashuaip/HUST_aubo_ros_melodic.git ```
 
-或 ```git clone https://gitee.com/dashuaip/HUST_aubo_ros_melodic.git```
+或  
 
-4.```sudo apt install ros-melodic-industrial-*```
+```git clone https://gitee.com/dashuaip/HUST_aubo_ros_melodic.git```
 
-5.```sudo apt install ros-melodic-rviz-*```
+4.  
+```sudo apt install ros-melodic-industrial-*```
 
-6.```sudo apt install ros-melodic-gazebo-*```
+5.  
+```sudo apt install ros-melodic-rviz-*```
 
-7.```sudo apt install ros-melodic-moveit-*```
+6.  
+```sudo apt install ros-melodic-gazebo-*```
 
-8.```sudo ln -sf /usr/include/eigen3/Eigen/ /usr/include/Eigen```
+7.  
+```sudo apt install ros-melodic-moveit-*```
 
-9.```sudo ln -sf /usr/include/eigen3/unsupported/ /usr/include/unsupported```
+8.  
+```sudo ln -sf /usr/include/eigen3/Eigen/ /usr/include/Eigen```
 
-10.```wget http://archive.ubuntu.com/ubuntu/pool/main/p/protobuf/libprotobuf9v5_2.6.1-1.3_amd64.deb```
+9.  
+```sudo ln -sf /usr/include/eigen3/unsupported/ /usr/include/unsupported```
 
-11.```sudo dpkg -i libprotobuf9v5_2.6.1-1.3_amd64.deb```
+10.  
+```wget http://archive.ubuntu.com/ubuntu/pool/main/p/protobuf/libprotobuf9v5_2.6.1-1.3_amd64.deb```
 
-12.```rosdepc install -y --from-paths . --ignore-src --rosdistro melodic -r```
+11.  
+```sudo dpkg -i libprotobuf9v5_2.6.1-1.3_amd64.deb```
 
-13.```cd ~/aubo_ws```
+12.  
+```rosdepc install -y --from-paths . --ignore-src --rosdistro melodic -r```
 
-14.```catkin_make```
+13.  
+```cd ~/aubo_ws```
 
-或 ```catkin b```
+14.  
+```catkin_make```
 
-15.```echo "source /home/***/aubo_ws/devel/setup.bash" >> ~/.bashrc```（注意***处修改成自己的用户名）
+或 
+
+```catkin b```
+
+15.  
+```echo "source /home/***/aubo_ws/devel/setup.bash" >> ~/.bashrc```（注意***处修改成自己的用户名）
 
 ---
 二、aubo robot运行
