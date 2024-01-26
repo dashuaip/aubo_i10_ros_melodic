@@ -15,7 +15,7 @@ wget http://fishros.com/install -O fishros && . fishros
 
 3.```git clone https://github.com/dashuaip/HUST_aubo_ros_melodic.git ```
 
-或 ```git clone https://mirror.ghproxy.com/https://github.com/dashuaip/HUST_aubo_ros_melodic.git```
+或 ```git clone https://gitee.com/dashuaip/HUST_aubo_ros_melodic.git```
 
 4.```sudo apt install ros-melodic-industrial-*```
 
