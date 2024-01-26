@@ -43,8 +43,6 @@ wget http://fishros.com/install -O fishros && . fishros
 
 15.```echo "source /home/***/aubo_ws/devel/setup.bash" >> ~/.bashrc```（注意***处修改成自己的用户名）
 
-16.```chmod +x aubo_ws/src/HUST_aubo_ros_melodic/aubo_controller/script/aubo_controller/aubo_robot_simulator``` 
-
 ---
 二、aubo robot运行
 
