@@ -16,6 +16,7 @@ wget http://fishros.com/install -O fishros && . fishros
 ```cd ~/aubo_ws/src/```
 
 3.下载ros package 
+
 ```git clone https://github.com/dashuaip/HUST_aubo_ros_melodic.git ```
 
 或  
@@ -54,7 +55,9 @@ wget http://fishros.com/install -O fishros && . fishros
 
 14.编译  
 ```catkin_make```
-或 
+
+或  
+
 ```catkin build```
 
 15.注意***处修改成自己的用户名   
