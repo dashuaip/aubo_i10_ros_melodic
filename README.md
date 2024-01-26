@@ -15,8 +15,7 @@ wget http://fishros.com/install -O fishros && . fishros
 2.进入src目录   
 ```cd ~/aubo_ws/src/```
 
-3.下载ros package 
-
+3.下载ros package  
 ```git clone https://github.com/dashuaip/HUST_aubo_ros_melodic.git ```
 
 或  
