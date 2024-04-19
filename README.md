@@ -52,7 +52,7 @@ wget http://fishros.com/install -O fishros && . fishros
 13.回到工作空间目录  
 ```cd ~/aubo_ws```
 
-14.编译  
+14.编译，失败了就多输几次   
 ```catkin_make```
 
 或  
@@ -61,6 +61,9 @@ wget http://fishros.com/install -O fishros && . fishros
 
 15.注意***处修改成自己的用户名   
 ```echo "source /home/***/aubo_ws/devel/setup.bash" >> ~/.bashrc```
+
+16.初始化  
+```source ~/.bashrc```
 
 ---
 二、aubo robot 启动
